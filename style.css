@@ -55,11 +55,19 @@ header {
 
 
 /* Form */
+
+/* create form-title middle web */
+#form-title {
+  text-align: center;
+}
+
+/* field set form */
 fieldset {
   margin: 16px 0;
   border-radius: 4px;
 }
 
+/* input area */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -69,6 +77,7 @@ textarea {
   display: block;
 }
 
+/* form section */
 #form-section {
   background-color: #0d7c6d;
   color: white;
