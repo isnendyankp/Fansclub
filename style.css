@@ -28,3 +28,16 @@ nav > ul {
 nav > ul > li {
   display: inline-block;
 }
+
+#form-section {
+  background-color: #0d7c6d;
+  color: white;
+  padding: 8px;
+  margin-top: 16px;
+}
+
+#form-section form {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
