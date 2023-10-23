@@ -200,4 +200,10 @@ button[type="submit"] {
   .article-container {
     flex-direction: column;
   }
+  .article-1 {
+    margin-right: 0;
+  }
+  .article-2 {
+    margin-left: 0;
+  }
 }
