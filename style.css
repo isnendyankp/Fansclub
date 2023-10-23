@@ -183,7 +183,7 @@ button[type="submit"] {
 /* Media Query */
 
 /* Mobile */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   /* header */
   header {
     height: 240px;
@@ -205,5 +205,9 @@ button[type="submit"] {
   }
   .article-2 {
     margin-left: 0;
+  }
+  /* form section */
+  .form-section form {
+    max-width: 100%;
   }
 }
