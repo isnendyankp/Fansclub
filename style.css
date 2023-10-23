@@ -178,3 +178,11 @@ button[type="submit"] {
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+
+/* Media Query */
+
+/* Mobile */
+@media (max-width: 768px) { 
+ 
+}
