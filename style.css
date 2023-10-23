@@ -184,8 +184,12 @@ button[type="submit"] {
 
 /* Mobile */
 @media (max-width: 768px) { 
- /* header */
+  /* header */
   header {
     height: 240px;
+  }
+  /* cat photos */
+  .cat-photos .grid-container {
+    grid-template-columns: 1fr;
   }
 }
