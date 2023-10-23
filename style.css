@@ -196,4 +196,8 @@ button[type="submit"] {
   .video-container {
     justify-content: center;
   }
+  /* cat articles */
+  .article-container {
+    flex-direction: column;
+  }
 }
