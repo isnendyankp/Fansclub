@@ -192,4 +192,8 @@ button[type="submit"] {
   .cat-photos .grid-container {
     grid-template-columns: 1fr;
   }
+  /* cat videos */
+  .video-container {
+    justify-content: center;
+  }
 }
