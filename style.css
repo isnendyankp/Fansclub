@@ -184,5 +184,8 @@ button[type="submit"] {
 
 /* Mobile */
 @media (max-width: 768px) { 
- 
+ /* header */
+  header {
+    height: 240px;
+  }
 }
