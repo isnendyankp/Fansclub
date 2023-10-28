@@ -1,13 +1,18 @@
 /* Body */
 body {
-    background-color: #f3f3f3;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  background: rgb(9, 102, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 102, 121, 1) 48%,
+    rgba(0, 194, 255, 1) 100%
+  );
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #250606;
+  margin: 0;
+  padding: 0;
 }
 
 
