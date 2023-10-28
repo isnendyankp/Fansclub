@@ -15,7 +15,6 @@ body {
   padding: 0;
 }
 
-
 /* Nav Bar */
 nav {
   position: fixed;
@@ -43,9 +42,9 @@ nav ul {
 }
 
 nav ul li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
 }
 
 nav ul li a {
@@ -56,7 +55,6 @@ nav ul li a {
 nav ul li a:hover {
   color: black;
 }
-
 
 /* header */
 header {
@@ -74,7 +72,6 @@ header {
   justify-content: center;
   padding-top: 48px;
 }
-
 
 /* Cat Photos */
 .cat-photos {
@@ -99,7 +96,6 @@ header {
   object-fit: cover;
 }
 
-
 /* cat videos */
 .video-section {
   background: rgb(9, 102, 121);
@@ -112,7 +108,13 @@ header {
   padding: 8px;
   margin-top: 16px;
 }
-
+.video-title {
+  text-align: center;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+}
 
 /* cat articles */
 .article-section {
@@ -133,7 +135,7 @@ header {
   display: flex;
   justify-content: center;
 }
-.article-question{
+.article-question {
   text-align: center;
 }
 .article-1 {
@@ -142,7 +144,6 @@ header {
 .article-2 {
   margin-left: 16px;
 }
-
 
 /* Form */
 
@@ -158,8 +159,8 @@ fieldset {
 }
 
 /* input area */
-input[type="text"],
-input[type="email"],
+input[type='text'],
+input[type='email'],
 textarea {
   width: 100%;
   padding: 4px 4px;
@@ -186,7 +187,7 @@ textarea {
   margin-right: auto;
 }
 /* Button submit */
-button[type="submit"] {
+button[type='submit'] {
   color: white;
   background-color: transparent;
   border: 1px solid white;
@@ -207,7 +208,7 @@ button[type="submit"] {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #FAEBD7; /* Set a background color */
+  background-color: #faebd7; /* Set a background color */
   color: #000000; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -218,7 +219,6 @@ button[type="submit"] {
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-
 
 /* Media Query */
 
