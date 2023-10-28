@@ -222,6 +222,13 @@ button[type="submit"] {
 
 /* Media Query */
 
+/* Hide Menu Bar */
+@media (min-width: 426px) {
+  .mobile {
+    display: none;
+  }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   /* header */
