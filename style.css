@@ -228,6 +228,12 @@ button[type="submit"] {
     display: none;
   }
 }
+/* Hide Nav ul list */
+@media (max-width: 425px) {
+  nav ul {
+    display: none;
+  }
+}
 
 /* Mobile */
 @media (max-width: 768px) {
