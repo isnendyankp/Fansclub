@@ -1,11 +1,6 @@
 /* Body */
 body {
-  background: rgb(9, 102, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 102, 121, 1) 48%,
-    rgba(0, 194, 255, 1) 100%
-  );
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -17,13 +12,8 @@ body {
 
 /* Nav Bar */
 nav {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   position: fixed;
-  background: rgb(9, 102, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 102, 121, 1) 48%,
-    rgba(0, 194, 255, 1) 100%
-  );
   color: white;
   width: 100%;
   display: flex;
@@ -48,8 +38,8 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 24px;
-  color: #333;
+  font-size: 18px;
+  color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -64,28 +54,15 @@ nav ul li a:hover {
   font-size: 24px;
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background: rgb(9, 102, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 102, 121, 1) 48%,
-    rgba(0, 194, 255, 1) 100%
-  );
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 48px;
-  border-bottom: 1px solid #222222;
 }
 
 /* Cat Photos */
 .cat-photos {
   text-align: center;
-  background: rgb(9, 102, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 102, 121, 1) 48%,
-    rgba(0, 194, 255, 1) 100%
-  );
   font-size: 24px;
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -104,12 +81,6 @@ nav ul li a:hover {
 
 /* cat videos */
 .video-section {
-  background: rgb(9, 102, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 102, 121, 1) 48%,
-    rgba(0, 194, 255, 1) 100%
-  );
   color: white;
   padding: 8px;
   margin-top: 16px;
@@ -127,12 +98,6 @@ nav ul li a:hover {
 
 /* cat articles */
 .article-section {
-  background: rgb(9, 102, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 102, 121, 1) 48%,
-    rgba(0, 194, 255, 1) 100%
-  );
   color: white;
   padding: 8px;
   margin-top: 16px;
@@ -186,18 +151,12 @@ input[type='tel'],
 textarea {
   width: 100%;
   padding: 4px 4px;
-  margin: 8px 0;
+  margin: 4px 0;
   display: block;
 }
 
 /* form section */
 .form-section {
-  background: rgb(9, 102, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 102, 121, 1) 48%,
-    rgba(0, 194, 255, 1) 100%
-  );
   color: white;
   padding: 8px;
   margin-top: 16px;
@@ -210,6 +169,7 @@ textarea {
 }
 /* Button submit */
 button[type='submit'] {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: white;
   background-color: transparent;
   border: 1px solid white;
